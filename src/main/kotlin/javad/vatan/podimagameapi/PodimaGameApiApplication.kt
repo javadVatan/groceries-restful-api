@@ -1,11 +1,11 @@
-package javad.vatan.groceriesrestfulapi
+package javad.vatan.podimagameapi
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class GroceriesRestfulApiApplication
+class PodimaGameApiApplication
 
 fun main(args: Array<String>) {
-    runApplication<GroceriesRestfulApiApplication>(*args)
+    runApplication<PodimaGameApiApplication>(*args)
 }
