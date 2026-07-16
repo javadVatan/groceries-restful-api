@@ -54,6 +54,8 @@ dependencies {
     testImplementation("org.assertj:assertj-core:$assertjVersion")
     testImplementation("io.mockk:mockk:$mockkVersion")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    implementation("org.springframework.boot:spring-boot-starter-validation")
 }
 
 

@@ -30,7 +30,8 @@ class SecurityConfig(
                     "/api/v3/api-docs/**",
                     "/api/swagger-ui.html",
                     "/api/v3/api-docs/swagger-config",
-                    "/api/open-api.yml"               // path where the spec is served
+                    "/api/open-api.yml",
+                    "/error" // path where the spec is served
                 ).permitAll()
                     .anyRequest().authenticated()
             }
